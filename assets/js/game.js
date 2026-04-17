@@ -52,7 +52,7 @@ class mineSweeper {
 
   // Emoji-Set aus lokalen Bildern aufbauen
   prepareEmoji() {
-    const base = 'assets/Emojis/';
+    const base = 'assets/emojis/';
     // Reihenfolge: [leer, bombe, flagge, start/abgedeckt]
     this.emojiset = [
       this.createImg(base + 'empty.png'),   // 0 – leeres Feld (aufgedeckt, 0 Nachbarn)
@@ -218,7 +218,7 @@ class mineSweeper {
     document.querySelector('.result-emoji').textContent = '';
     // Startbild für den Reset-Button
     const defaultEmoji = document.querySelector('.default-emoji');
-    const img = this.createImg('assets/Emojis/player.png');
+    const img = this.createImg('assets/emojis/player.png');
     img.style.width  = '20px';
     img.style.height = '20px';
     defaultEmoji.innerHTML = '';
