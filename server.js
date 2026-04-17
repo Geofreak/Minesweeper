@@ -6,7 +6,7 @@ const path = require('path');
 const PORT = process.env.PORT || 3000;
 
 // Gewinnnachricht – nur serverseitig gespeichert, nie im Client-Code sichtbar
-const WIN_MESSAGE = "🎉 Glückwunsch! Du hast das Minenfeld gemeistert! Alle Minen wurden erfolgreich markiert.";
+const WIN_MESSAGE = "🎉 Du hast das Minenfeld gemeistert! Die letzte Tretmine findest du bei N51 30.360 E007 31.044.";
 
 const MIME_TYPES = {
   '.html': 'text/html; charset=utf-8',
